@@ -2,7 +2,7 @@
 
 This repository contains the code and evaluation scripts for a research project exploring **Representation Engineering** and **Arbitrary-Rank Ablation (ARA)**. 
 
-The goal of this project was to surgically remove the safety alignment (refusal vectors) from the `google/gemma-4-E2B-it` model at the matrix level, without relying on traditional fine-tuning or uncensored datasets. The resulting model, **Gemma 4 E2B Uncensored**, demonstrates that low-level ablation can bypass safety guardrails while preserving the model's core logic and spatial reasoning capabilities.
+Research project studying how refusal behavior is encoded in LLM weights — uses Arbitrary-Rank Ablation to isolate and ablate the refusal direction in Gemma 4 E2B, then benchmarks the effect on reasoning and truthfulness.
 
 The compiled model weights can be found on Hugging Face: [Kasper-Bankler/gemma-4-E2B-uncensored](https://huggingface.co/Kasper-Bankler/gemma-4-E2B-uncensored)
 
