@@ -1,10 +1,7 @@
-# Gemma 4 E2B - Uncensored (Arbitrary-Rank Ablation)
+# LLM Refusal Ablation Study (Arbitrary-Rank Ablation on Gemma 4 E2B)
 
-This repository contains the code and evaluation scripts for a research project exploring **Representation Engineering** and **Arbitrary-Rank Ablation (ARA)**. 
 
-Research project studying how refusal behavior is encoded in LLM weights — uses Arbitrary-Rank Ablation to isolate and ablate the refusal direction in Gemma 4 E2B, then benchmarks the effect on reasoning and truthfulness.
-
-The compiled model weights can be found on Hugging Face: [Kasper-Bankler/gemma-4-E2B-uncensored](https://huggingface.co/Kasper-Bankler/gemma-4-E2B-uncensored)
+This repository contains the code and evaluation scripts for a research project studying how refusal behavior is encoded in the weights of `google/gemma-4-E2B-it`. Using Arbitrary-Rank Ablation (ARA), I isolate and remove the model's refusal direction, then benchmark the effect on reasoning (ARC-Easy, HellaSwag) and truthfulness (TruthfulQA) to measure what changes and what doesn't.
 
 ---
 
